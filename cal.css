@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+
+#frame{
+    margin: 20px 450px 20px 500px;
+    width: 346px;
+    height:580px;
+    background-color: aquamarine;
+}
+
+#display{
+    position: relative;
+    top:50px;
+    margin: 0px auto;
+    width:316px;
+    height:80px;
+    display:flex;
+}
+#btnCont{
+    width: 322px;
+    height: 395px;
+    border:1px;
+    margin: 0px auto;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: bisque;
+  
+
+}
+
+.btn{
+    float: left;
+    width:75px;
+    height:75px;
+    background-color: white;
+    border: 1px;
+    margin: 2px;
+    
+}
