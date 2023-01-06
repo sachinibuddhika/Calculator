@@ -17,7 +17,14 @@ body{
     margin: 0px auto;
     width:316px;
     height:80px;
+    border-radius: 1px;
+    box-shadow: inset rgb(82, 78, 78) 3px 3px 5px;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(28, 27, 31);
+    align-items: right;
     display:flex;
+    text-align: end;
 }
 #btnCont{
     width: 322px;
