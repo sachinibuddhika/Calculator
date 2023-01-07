@@ -6,9 +6,19 @@ body{
 
 #frame{
     margin: 20px 450px 20px 500px;
+    background-color: rgb(110, 239, 254);
     width: 346px;
     height:580px;
-    background-color: aquamarine;
+    border: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: inset gray;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+
+input[type=text]{
+    border:1px solid white;
 }
 
 #display{
@@ -26,6 +36,7 @@ body{
     display:flex;
     text-align: end;
 }
+
 #btnCont{
     width: 322px;
     height: 395px;
@@ -36,8 +47,6 @@ body{
     padding-bottom: 5px;
     border-radius: 2px;
     
-  
-
 }
 
 .btn{
@@ -58,4 +67,13 @@ body{
     box-shadow: inset rgb(82, 78, 78) 2px 2px 8px;
     opacity: 90%;
     
+}
+
+#dot{
+    font-weight: bold;
+}
+
+#lastbtn{
+    width: 154px;
+    height:75px
 }
