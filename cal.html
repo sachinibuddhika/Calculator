@@ -9,33 +9,34 @@
         <br/> <br/> <br/> <br/>
 
         <div id="btnCont" name="btn">
-            <div class="btn">C</div>
-            <div class="btn">DEL</div>
-            <div class="btn">%</div>
-            <div class="btn">/</div>
+            <div class="btn" onclick="clr()">C</div>
+            <div class="btn" onclick="del()">DEL</div>
+            <div class="btn" onclick="calculate('%')">%</div>
+            <div class="btn" onclick="calculate('/')">/</div>
 
             <br/>
-            <div class="btn">7</div>
-            <div class="btn">8</div>
-            <div class="btn">9</div>
-            <div class="btn">*</div>
+            <div class="btn" onclick="calculate(7)">7</div>
+            <div class="btn" onclick="calculate(8)">8</div>
+            <div class="btn" onclick="calculate(9)">9</div>
+            <div class="btn" onclick="calculate('*')">*</div>
 
             <br/>
-            <div class="btn">4</div>
-            <div class="btn">5</div>
-            <div class="btn">6</div>
-            <div class="btn">-</div>
+            <div class="btn" onclick="calculate(4)">4</div>
+            <div class="btn" onclick="calculate(5)">5</div>
+            <div class="btn" onclick="calculate(6)">6</div>
+            <div class="btn" onclick="calculate('-')">-</div>
 
             <br/>
-            <div class="btn">1</div>
-            <div class="btn">2</div>
-            <div class="btn">3</div>
-            <div class="btn">+</div>
+            <div class="btn" onclick="calculate(1)">1</div>
+            <div class="btn" onclick="calculate(2)">2</div>
+            <div class="btn" onclick="calculate(3)">3</div>
+            <div class="btn" onclick="calculate('+')">+</div>
              
             <br/>
-            <div class="btn" id="dot">.</div>
-            <div class="btn">0</div>
-            <div class="btn" id="lastbtn">=</div>
+            <div class="btn" id="dot" onclick="calculate('.')">.</div>
+            <div class="btn" onclick="calculate(0)">0</div>
+            <div class="btn" id="lastbtn" onclick="getResult('=')">=</div>
+            <script src="cal.js"></script>
         </div>
     </div>
 </body>

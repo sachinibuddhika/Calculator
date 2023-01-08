@@ -38,7 +38,8 @@ input[type=text]{
     color: rgb(0, 0, 0);
     align-items: right;
     display:flex;
-    text-align: end;
+    text-align: end
+
 }
 
 #btnCont{
@@ -60,6 +61,7 @@ input[type=text]{
     background-color: white;
     border: 1px;
     margin-left: 2px;
+    margin-bottom: 2px;
     font-family: sans-serif;
     font-size: 20px;
     color: black;
@@ -71,6 +73,7 @@ input[type=text]{
     box-shadow: inset rgb(84, 85, 85) 2px 2px 8px;
     transition: 0.5s;
     opacity: 60%;
+
     
 }
 
@@ -86,6 +89,6 @@ input[type=text]{
 }
 
 #lastbtn{
-    width: 154px;
+    width: 152px;
     height:75px;
 }
